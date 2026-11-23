@@ -1,14 +1,15 @@
 # Matrix-operations-linear-algebra-with-NumPy
-AIM
+Exp 1
+# AIM
 Introduce matrix operations used in ML: transpose, inverse, solve linear systems, eigen decomposition.
 
-THEORY:
+# THEORY:
 Linear algebra (matrix inversion, eigen-decomposition) underpins PCA, linear models, and many optimization problems. Conditioning/invertibility matters.
 
-ALGORITHM :
+# ALGORITHM :
 Direct use of numpy.linalg routines; relate to linear regression normal equations.
 
-PROGRAM
+# PROGRAM
 
 import numpy as np
 import pandas as pd
@@ -23,7 +24,7 @@ x= np.linalg.solve(A,B)
 print ("\nsolve A x = B--> x:",np.round(x,4))
 
 
-OUTPUT
+# OUTPUT
 
 matrix A:
  [[2. 1.]
@@ -41,5 +42,5 @@ Eigenvalues: [1.382 3.618]
 
 solve A x = B--> x: [0.2 0.6]
 
-RESULT:
+# RESULT:
 Students see concrete matrix computations and how to solve linear systems; relate solve() to normal equations in linear regression.
