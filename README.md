@@ -11,6 +11,7 @@ Direct use of numpy.linalg routines; relate to linear regression normal equation
 
 # PROGRAM
 
+
 import numpy as np
 import pandas as pd
 A= np.array([[2.0,1.0],[1.0,3.0]])
@@ -22,6 +23,8 @@ eigvals, eigvecs = np.linalg.eig(A)
 print("\nEigenvalues:", np.round(eigvals ,4))
 x= np.linalg.solve(A,B)
 print ("\nsolve A x = B--> x:",np.round(x,4))
+
+
 
 
 # OUTPUT
