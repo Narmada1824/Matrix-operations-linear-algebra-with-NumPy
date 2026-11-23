@@ -11,7 +11,7 @@ Direct use of numpy.linalg routines; relate to linear regression normal equation
 
 # PROGRAM
 
-
+```
 import numpy as np
 import pandas as pd
 A= np.array([[2.0,1.0],[1.0,3.0]])
@@ -24,11 +24,11 @@ print("\nEigenvalues:", np.round(eigvals ,4))
 x= np.linalg.solve(A,B)
 print ("\nsolve A x = B--> x:",np.round(x,4))
 
-
+```
 
 
 # OUTPUT
-
+```
 matrix A:
  [[2. 1.]
  [1. 3.]]
@@ -44,6 +44,7 @@ inverse A^-1:
 Eigenvalues: [1.382 3.618]
 
 solve A x = B--> x: [0.2 0.6]
+```
 
 # RESULT:
 Students see concrete matrix computations and how to solve linear systems; relate solve() to normal equations in linear regression.
